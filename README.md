@@ -1,43 +1,43 @@
-## YOLO Real Time Object Detection
+## YOLO Object Detection in Image and Video Using YOLO
 
-This project implements a real time object detection via video, webcam and image detection using YOLO algorithm. YOLO is a object detection algorithm which stand for You Only Look Once. I've implemented the algorithm from scratch in Python using pre-trained weights. YOLOv3 was published in research paper: <a href="https://pjreddie.com/media/files/papers/YOLOv3.pdf" rel="nofollow">YOLOv3: An Incremental Improvement: Joseph Redmon, Ali Farhadi</a> It's originally implemented in <a href="https://github.com/pjreddie/darknet">YOLOv3</a>.
+This project implements a object detection via video, and image detection using the YOLO algorithm. YOLO is an object detection algorithm that stands for You Only Look Once. I've implemented the algorithm from scratch in Python using pre-trained weights. YOLOv3 was published in research paper: <a href="https://pjreddie.com/media/files/papers/YOLOv3.pdf" rel="nofollow">YOLOv3: An Incremental Improvement: Joseph Redmon, Ali Farhadi</a> It's originally implemented in <a href="https://github.com/pjreddie/darknet">YOLOv3</a>.
 
-COCO dataset is used for training.
+The COCO dataset is used for training.
 
-Real time detection can be use via command prompt or GUI.
+Object detection can be used via command prompt or GUI.
 
 <table>
   <tbody>
 	<tr align="center">
-		<th><strong>A USA Real-Time Road Detection</strong></th>
+		<th><strong>Object Detection on Streets of USA </strong></th>
 	</tr>
 	<tr align="center">
-		<td><img src="https://github.com/muhammadshiraz/YOLO-Real-Time-Object-Detection/blob/master/doc/detector1.gif"></td>		
+		<td><img src="https://github.com/Darkphantom323/Object_Detection_In_Image_And_Video_Using_YOLO/blob/master/doc/detector1.gif"></td>		
 	</tr>
 	<tr align="center">
-		<th><strong>A UK Real-Time Road Detection</strong></th>
+		<th><strong>Object Detection on Streets of UK </strong></th>
 	</tr>
 	<tr align="center">
-		<td><img src="https://github.com/muhammadshiraz/YOLO-Real-Time-Object-Detection/blob/master/doc/detector2.gif"></td>
+		<td><img src="https://github.com/Darkphantom323/Object_Detection_In_Image_And_Video_Using_YOLO/blob/master/doc/detector2.gif"></td>
 	</tr>
 	<tr align="center">
-		<th><strong>A Real-Time Webcam Detection</strong></th>
+		<th><strong>Object detection in a Image </strong></th>
 	</tr>
 	<tr align="center">
-		<td style="width: 100%;"><img src="https://github.com/muhammadshiraz/YOLO-Real-Time-Object-Detection/blob/master/doc/webcam_detector.jpg"></td>
+		<td style="width: 100%;"><img src="https://github.com/Darkphantom323/Object_Detection_In_Image_And_Video_Using_YOLO/blob/master/doc/webcam_detector.jpg"></td>
 	</tr>
 </tbody>
 </table>
 
-Yolo is a deep learning algorythm which came out on may 2016 and it became quickly so popular because it’s so fast compared with the previous deep learning algorythm.
-With yolo we can detect real time objects at a relatively high speed. With a GPU we would be able to process over 45 frames/second while with a CPU around a frame per second.
+Yolo is a deep learning algorithm that came out in May 2016 and it became quickly so popular because it’s so fast compared with the previous deep learning algorithm.
+With Yolo we can detect real-time objects at a relatively high speed. With a GPU we would be able to process over 45 frames/per second while with a CPU around a frame per second.
 
 OpenCV dnn module supports running inference on pre-trained deep learning models from popular frameworks like Caffe, Torch and TensorFlow.
 
 ## Requirement
 <ul>
-<li>OpenCV 4.2.0</li>
-<li>Python 3.6</li>
+<li>OpenCV 4.2.0 or above </li>
+<li>Python 3.6 or above</li>
 </ul>
 
 ## Quick start
@@ -50,8 +50,8 @@ OpenCV dnn module supports running inference on pre-trained deep learning models
 
 ## Dependencies
 <ul>
-<li>opencv</li>
-<li>numpy</li>
+<li>Opencv</li>
+<li>Numpy</li>
 </ul>
 
 ## Install dependencies
@@ -60,31 +60,19 @@ OpenCV dnn module supports running inference on pre-trained deep learning models
 ## How to use?
 <ol>
   <li>Clone the repository</li>
-  <p><code>git clone https://github.com/muhammadshiraz/YOLO-Real-Time-Object-Detection.git</code></p>
+  <p><code>git clone https://github.com/muhammadshiraz/YOLO-Real-Time-Object-Detection.git<](https://github.com/Darkphantom323/Object_Detection_In_Image_And_Video_Using_YOLO/code></p>
 </ol>
 <ol start="2">
   <li>Move to the directory</li>
   <p><code>cd YOLO-Real-Time-Object-Detection</code></p>
 </ol>
 <ol start="3">
-  <li>To view the UK Real-Time Road Detection</li>
-  <p><code>python real_time_yolo_detector1.py</code></p>
+  <li>To use Object Detection in video</li>
+  <p><code>python yolo_object_detection_video.py</code></p>
 </ol>
 <ol start="4">
-  <li>To view the USA Real-Time Road Detection</li>
-  <p><code>python real_time_yolo_detector2.py</code></p>
-</ol>
-<ol start="5">
-  <li>To use in real-time on webcam</li>
-  <p><code>python real_time_yolo_webcam.py</code></p>
+  <li>To use Object Detection in Image </li>
+  <p><code>python yolo_object_detection_image.py</code></p>
 </ol>
 
-## Graphical User Interface:
-#### A USA Real-Time Road Detection
-<img src="https://user-images.githubusercontent.com/45601530/79018190-a4dff500-7b8c-11ea-8866-119735d7c8fc.jpg">
 
-#### A UK Real-Time Road Detection
-<img src="https://user-images.githubusercontent.com/45601530/79018201-aad5d600-7b8c-11ea-9844-b93a98fd0e00.jpg">
-
-#### A Real-Time Webcam Detection
-<img src="https://github.com/muhammadshiraz/YOLO-Real-Time-Object-Detection/blob/master/doc/webcam_detector.jpg">
