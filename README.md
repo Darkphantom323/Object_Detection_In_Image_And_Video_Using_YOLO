@@ -1,10 +1,10 @@
 ## YOLO Object Detection in Image and Video Using YOLO
 
-This project implements a object detection via video, and image detection using the YOLO algorithm. YOLO is an object detection algorithm that stands for You Only Look Once. I've implemented the algorithm from scratch in Python using pre-trained weights. YOLOv3 was published in research paper: <a href="https://pjreddie.com/media/files/papers/YOLOv3.pdf" rel="nofollow">YOLOv3: An Incremental Improvement: Joseph Redmon, Ali Farhadi</a> It's originally implemented in <a href="https://github.com/pjreddie/darknet">YOLOv3</a>.
+This project implements Named Entity Recognition(NER) Object detection in video and image using the YOLO algorithm. YOLO is an object detection algorithm that stands for You Only Look Once. I've implemented the algorithm from scratch in Python using pre-trained weights. YOLOv3 was published in research paper: <a href="https://pjreddie.com/media/files/papers/YOLOv3.pdf" rel="nofollow">YOLOv3: An Incremental Improvement: Joseph Redmon, Ali Farhadi</a> It's originally implemented in <a href="https://github.com/pjreddie/darknet">YOLOv3</a>.
 
 The COCO dataset is used for training.
 
-Object detection can be used via command prompt or GUI.
+Object detection can be used via a command prompt or GUI.
 
 <table>
   <tbody>
