@@ -60,7 +60,7 @@ OpenCV dnn module supports running inference on pre-trained deep learning models
 ## How to use?
 <ol>
   <li>Clone the repository</li>
-  <p><code>git clone https://github.com/muhammadshiraz/YOLO-Real-Time-Object-Detection.git<](https://github.com/Darkphantom323/Object_Detection_In_Image_And_Video_Using_YOLO/code></p>
+  <p><code>git clone https://github.com/Darkphantom323/Object_Detection_In_Image_And_Video_Using_YOLO</p>
 </ol>
 <ol start="2">
   <li>Move to the directory</li>
