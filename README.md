@@ -12,19 +12,19 @@ Object detection can be used via command prompt or GUI.
 		<th><strong>Object Detection on Streets of USA </strong></th>
 	</tr>
 	<tr align="center">
-		<td><img src="https://github.com/Darkphantom323/Object_Detection_In_Image_And_Video_Using_YOLO/blob/master/doc/detector1.gif"></td>		
+		<td><img src="https://github.com/Darkphantom323/Object_Detection_In_Image_And_Video_Using_YOLO/blob/main/doc/detector1.jpg"></td>		
 	</tr>
 	<tr align="center">
 		<th><strong>Object Detection on Streets of UK </strong></th>
 	</tr>
 	<tr align="center">
-		<td><img src="https://github.com/Darkphantom323/Object_Detection_In_Image_And_Video_Using_YOLO/blob/master/doc/detector2.gif"></td>
+		<td><img src="https://github.com/Darkphantom323/Object_Detection_In_Image_And_Video_Using_YOLO/blob/main/doc/detector2.gif"></td>
 	</tr>
 	<tr align="center">
 		<th><strong>Object detection in a Image </strong></th>
 	</tr>
 	<tr align="center">
-		<td style="width: 100%;"><img src="https://github.com/Darkphantom323/Object_Detection_In_Image_And_Video_Using_YOLO/blob/master/doc/webcam_detector.jpg"></td>
+		<td style="width: 100%;"><img src="https://github.com/Darkphantom323/Object_Detection_In_Image_And_Video_Using_YOLO/blob/main/doc/webcam_detector.jpg"></td>
 	</tr>
 </tbody>
 </table>
